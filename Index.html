@@ -6,6 +6,15 @@
     <meta name="" content="">
     <link rel="stylesheet" href="./css/Index.css" type="text/css" media="all" />
     <title>home</title>
+    <script>
+      // Check that service workers are supported
+      if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
+      </script>
   </head>
   <body>
   <section class="home">
