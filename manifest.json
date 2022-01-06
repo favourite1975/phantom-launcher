@@ -1,0 +1,27 @@
+{
+    "name": "phantom launcher",
+    "short_name": "launcher",
+    "icons":[
+        {
+            "src": "./img/apps.png",
+            "sizes": "192*192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./img/apps.png",
+            "sizes": "384*384",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/apps.png",
+            "sizes": "512*512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color":"#FFFFFF",
+    "start_url": "/phantom-launcher/",
+    "display": "standalone",
+    "orientation":"portrait"
+}
