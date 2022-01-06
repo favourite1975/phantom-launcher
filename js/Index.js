@@ -1,3 +1,5 @@
+alert("please this might not be very responsive on your device please try veiwing it on a smaller device");
+
  var currentTime = new Date();
      var Time = document.getElementById('time');
       Time.innerHTML = currentTime.toLocaleTimeString();
