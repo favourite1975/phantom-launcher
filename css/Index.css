@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    color: white;
+    font-family: 'segoe ui';
+    background: #272727;
+  }
+  .home{
+    background:url("/img/wallpaper.jpg") center ;
+background-size: fill; 
+background-repeat:no-repeat;
+height: 100vh;
+position: relative;
+  }
+  .time-signal{
+    display: flex;
+  flex-direction: row;
+    padding: .5rem;
+  }
+  #time{
+    color: #FFf;
+  }
+  .signal-flex{
+    display: flex;
+    float: right;
+    align-items: right;
+    position: fixed;
+    top: .1rem;
+    right: 0;
+  }
+  .signal-flex>img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .google-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+
+  }
+  .icon-input{
+    display: flex;
+    flex-direction: row;
+  }
+  .google{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #222;
+    outline: none;
+    box-shadow: 3px 4px 6px #222;
+  }
+  .google>img{
+    padding: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+  }
+  .search{
+    height: 3.5rem;
+    background: #222;
+    outline: none;
+    border: none;
+    color: white;
+  }
+  .len-mic{
+    display: flex;
+    flex-direction: row;
+    background: #222;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: none;
+
+  }
+  .len-mic>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: .5rem;
+  }
+  .main-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .main-time>#hour{
+    font-size: 6rem;
+    text-align: center;
+    font-family: Arial;
+  }
+  .main-time>.colon{
+    font-size: 6rem;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 1rem;
+  }
+  .main-time>#min{
+    font-size: 6rem;
+    text-align: center;
+    font-family: Arial;
+  }
+  #date{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .app{
+    margin: .5rem;
+    padding-top: 9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .apps{
+    padding-top: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .apps>a>.fb{
+    outline: none;
+    outline-color: none;
+    margin-left: .6rem;
+  }
+  .apps>.fb{
+    margin-left: .6rem;
+  }
+  .fb{
+    width: 4rem;
+    height: 4rem;
+    background: #222;
+    border-radius: 2.5rem;
+    border: 2px solid orange;
+  }
+  .fb1{
+    margin-left: .1rem;
+    width: 4rem;
+    height: 4rem;
+    background: #222;
+    border-radius: 2.5rem;
+    border: 2px solid orange;
+  }
+  .dot{
+    color: orange;
+    font-size: 5rem;
+    text-align: center;
+  }
+  .app-main>button {
+    background: unset;
+    border: none;
+    outline: none;
+  }
+  .app-main{
+    display: block;
+  }
+  .app-name{
+    color: #fff;
+    font-weight: bold;
+    padding-top: .5rem;
+  }
+
