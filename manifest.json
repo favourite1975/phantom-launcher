@@ -3,25 +3,25 @@
     "short_name": "launcher",
     "icons":[
         {
-            "src": "./img/apps.png",
+            "src": "./img/logo.png",
             "sizes": "192*192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "./img/apps.png",
+            "src": "./img/logo.png",
             "sizes": "384*384",
             "type": "image/png"
         },
         {
-            "src": "./img/apps.png",
+            "src": "./img/logo.png",
             "sizes": "512*512",
             "type": "image/png"
         }
     ],
     "theme_color": "#FFFFFF",
     "background_color":"#FFFFFF",
-    "start_url": "/phantom-launcher/",
+    "start_url": "/",
     "display": "standalone",
     "orientation":"portrait"
 }
